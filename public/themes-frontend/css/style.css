@@ -1525,7 +1525,7 @@ ul {
 /* <!-- add your custom CSS --> */
 
 /* Add Whatsapp floating button CSS */
-.floating {
+.floating-wa {
     position: fixed;
     width: 60px;
     height: 60px;

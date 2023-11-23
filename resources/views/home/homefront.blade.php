@@ -593,7 +593,7 @@
 <!-- render the button and direct it to wa.me -->
 
 {{-- <p><a href="tel:+0123-456789">{{ $company->phone ?? '' }}</a></p> --}}
-<a href="https://wa.me/{{ $company->phone ?? '' }}?text=Hi%20Webiin.com" class="floating" target="_blank">
+<a href="https://wa.me/{{ $company->phone ?? '' }}?text=Hi%20Webiin.com" class="floating-wa" target="_blank">
     <i class="fab fa-whatsapp fab-icon"></i>
 </a>
 @endsection
