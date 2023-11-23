@@ -223,7 +223,8 @@
                                     class="fas fa-square-full"></i></span> SOLUSI BISNIS ANDA</h6>
                         <h1 class="section-title black-color">Pastikan Bisnis Anda <br>
                             Mendunia</h1>
-                        <p>"jangan terlalu lama berpikir!!, berinovasilah, dan buat kehadiran online yang memukau sekarang
+                        <p>"jangan terlalu lama berpikir!!, berinovasilah, dan buat kehadiran online yang memukau
+                            sekarang
                             juga! Dengan bergerak cepat, Anda tidak hanya melindungi bisnis dari badai, tetapi juga
                             membuka pintu untuk pertumbuhan dan sukses yang luar biasa di dunia digital yang terus
                             berkembang." </p>
@@ -593,7 +594,18 @@
 <!-- render the button and direct it to wa.me -->
 
 {{-- <p><a href="tel:+0123-456789">{{ $company->phone ?? '' }}</a></p> --}}
-<a href="https://wa.me/{{ $company->phone ?? '' }}?text=Hi%20Webiin.com" class="floating-wa" target="_blank">
+<a href="https://wa.me/{{ $company->phone ?? '' }}?text=Hi%20Webiin.com" style="position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 130px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;" target="_blank">
     <i class="fab fa-whatsapp fab-icon"></i>
 </a>
 @endsection
